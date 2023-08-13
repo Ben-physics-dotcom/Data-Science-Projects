@@ -68,3 +68,14 @@ AG = Zoo_liste.loc[lst]
 AG.index = range(len(AG))
 
 pritn(AG)
+
+# prozentuale Verteilung der Unternehmensformen von Mitgliedern beim VdZ
+prozent_Verteilung = {UF_name[0]:f'{round(15/70*100,1)}%',
+                      UF_name[1]:f'{round(15/70*100,1)}%',
+                      UF_name[2]:f'{round(8/70*100,1)}%',
+                      UF_name[3]:f'{round(5/70*100,1)}%',
+                      UF_name[4]:f'{round(7/70*100,1)}%',
+                      UF_name[5]:f'{round(1/70*100,1)}%',
+                      UF_name[6]:f'{round(16/70*100,1)}%',
+                      UF_name[7]:f'{round(3/70*100,1)}%'}
+print(prozent_Verteilung)
